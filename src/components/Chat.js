@@ -46,10 +46,10 @@ class Chat extends Component {
           }   
     componentDidMount() {
           const chatManager = new Chatkit.ChatManager({
-                  instanceLocator: 'v1:us1:7db04fbc-6070-4c06-bc58-a702f0d72695',
+                  instanceLocator: 'YOUR_INSTANCE_LOCATOR',
                   userId: this.props.currentUsername,
                   tokenProvider: new Chatkit.TokenProvider({
-                    url: 'https://us1.pusherplatform.io/services/chatkit_token_provider/v1/7db04fbc-6070-4c06-bc58-a702f0d72695/token',
+                    url: 'YOUR_TOKEN_PROVIDER',
                   }),
                 })
                 chatManager
@@ -57,7 +57,7 @@ class Chat extends Component {
                 .then(currentUser => {
                   this.setState({ currentUser })
                   return currentUser.subscribeToRoom({
-                    roomId: 19394438,
+                    roomId: YOUR_ROOM_ID,
                     messageLimit: 2,
                     hooks: {
                       onNewMessage: message => {                      
