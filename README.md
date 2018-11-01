@@ -9,9 +9,18 @@ Clone the repository:
 
 `git clone https://github.com/codebeast-sealuse/react-chat `
 
+Install project dependencies: 
+
+`cd react-chat && npm install`
+
+Update project files with unique Chatkit credentials:
+
+Open `server.js` file and update the `instanceLocator` and `secretKey` with your unique credentials. 
+Do the same in the `Chat.js` file.
+
 Start the dev server:
 
-`cd react-chat && npm start`
+`npm start`
 
 Start the Node server:
 
@@ -23,6 +32,9 @@ Prerequisites
 - You’ll need Node.js and NPM v5.2 or above
 - You’ll need access to Chatkit credentials, create an account to get it 
 
+
+
 ## Built With
 Chatkit 
+
 React
