@@ -1,31 +1,86 @@
+@font-face {
+  font-family: graphik;
+  src: url(https://assets.grubhub.com/fonts/b0d8556d96a96b86094d8fabafe082a4.woff)
+      format("woff"),
+    url(https://assets.grubhub.com/fonts/021bf1cd9b7186858a9297ee963dea2b.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
 
+@font-face {
+  font-family: graphik-bold;
+  src: url(https://assets.grubhub.com/fonts/b93d3cd360a737744b21b85b1b8c8596.woff)
+      format("woff"),
+    url(https://assets.grubhub.com/fonts/2e383c5f28177cb8e4e1ccea345a6a8f.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: grubhubsans;
+  src: url(https://assets.grubhub.com/fonts/457ad1b6e4c3c62ac99176bfcd8becf8.woff)
+      format("woff"),
+    url(https://assets.grubhub.com/fonts/960b219f697598a345bc9f5261d59b99.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+p {
+  font-family: grubhubsans;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: grubhubsans-bold;
+  src: url(https://assets.grubhub.com/fonts/2ad16a9135fa759791353a358e78c429.woff)
+      format("woff"),
+    url(https://assets.grubhub.com/fonts/c23a6d937170b3e1c7ab1154d5d3834b.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+body {
+  background-color: #efefef;
+}
+h1 {
+  font-family: grubhubsans-bold;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.32;
+}
 #chat-input {
-  color: 'inherit';
-  background-color: 'none';
-  outline: 'none';
-  border: 'none';
+  /* color: "inherit";
+  background-color: "none";
+  outline: "none";
+  border: "none";
   flex: 1;
   font-size: 16;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 20px; */
 }
-#container{
+#container {
   padding: 20;
-  border-top: '1px #4C758F solid';
+  border-top: "1px #4C758F solid";
   margin-bottom: 20;
   margin-top: 150px;
 }
-#btndiv{
-  color: 'inherit';
-  background-color: 'none';
-  outline: 'none';
-  border: 'none';
+#btndiv {
+  color: "inherit";
+  background-color: "none";
+  outline: "none";
+  border: "none";
   flex: 1;
   font-size: 16;
   padding: 20px;
 }
-#button{
-  color: #73AD21;
+#button {
+  color: #73ad21;
   padding-right: 20px;
   font-size: 100px;
   margin-bottom: 20px;
@@ -33,6 +88,6 @@
 #center {
   margin: auto;
   width: 60%;
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
   padding: 10px;
 }
